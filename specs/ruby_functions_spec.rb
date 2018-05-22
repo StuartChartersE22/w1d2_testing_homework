@@ -95,13 +95,14 @@ class Functions_Practice < MiniTest::Test
   #Test with rounding
   def test_volume_of_sphere()
     vol = volume_of_sphere(3)
-    assert_in_delta(113,vol)
+    assert_equal(113,vol)
   end
 
-  # #Given a value in farenheit, convert this into celsius.
-  # def test_fahrenheit_to_celsius()
-  #   #add test code here
-  # end
+  #Given a value in farenheit, convert this into celsius.
+  def test_fahrenheit_to_celsius()
+    temp_in_c = fahrenheit_to_celsius(-40)
+    assert_equal(-40,temp_in_c)
+  end
 
 
 end
