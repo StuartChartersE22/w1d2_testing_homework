@@ -93,6 +93,14 @@ def volume_of_sphere(r)
   return (((4*3.14159265359)/3)*r**3).round()
 end
 
+#Further 3 test:
+def fahrenheit_to_celsius(tempf)
+  tempc = ((tempf.to_f-32)*5)/9
+  return tempc
+end
+#Delta test:
+
+#Rounded test:
 def fahrenheit_to_celsius(tempf)
   tempc = ((tempf-32)*5)/9
   return tempc.round
