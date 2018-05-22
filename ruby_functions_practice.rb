@@ -75,3 +75,7 @@ end
 def number_to_short_month_name(a)
   return number_to_full_month_name(a).slice(0,3)
 end
+
+def volume_of_cube (length)
+  return length**3
+end
