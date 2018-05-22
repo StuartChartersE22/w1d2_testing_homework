@@ -89,7 +89,7 @@ class Functions_Practice < MiniTest::Test
   #Test with delta
   # def test_volume_of_sphere()
   #   vol = volume_of_sphere(3)
-  #   assert_in_delta(113.1,vol,0.01)
+  #   assert_in_delta(113.1,vol,0.1)
   # end
 
   #Test with rounding
@@ -102,8 +102,8 @@ class Functions_Practice < MiniTest::Test
 
   #Test with Delta:
   def test_fahrenheit_to_celsius()
-    temp_in_c = fahrenheit_to_celsius(-40)
-    assert_in_delta(-40,temp_in_c,0.01)
+    temp_in_c = fahrenheit_to_celsius(100)
+    assert_in_delta(37.8,temp_in_c,0.1)
   end
 
   #Test with rounding:
