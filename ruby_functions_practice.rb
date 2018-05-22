@@ -17,3 +17,8 @@ end
 def multiply(a,b)
   return a*b
 end
+
+#5th test
+def divide(a,b)
+  return a/b
+end
