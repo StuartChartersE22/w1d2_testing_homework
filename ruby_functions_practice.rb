@@ -40,7 +40,7 @@ def add_string_as_number(string1,string2)
   return a+b
 end
 
-#9th and 10th test
+#9th, 10th, 11th test
 def number_to_full_month_name(a)
   months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "Decmeber"]
   return months[a-1]
