@@ -7,3 +7,8 @@ end
 def add(a,b)
   return a+b
 end
+
+#3rd test
+def subtract(a,b)
+  return a-b
+end
