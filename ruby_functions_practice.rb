@@ -95,5 +95,5 @@ end
 
 def fahrenheit_to_celsius(tempf)
   tempc = ((tempf-32)*5)/9
-  return tempc
+  return tempc.round
 end
