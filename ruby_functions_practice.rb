@@ -22,3 +22,8 @@ end
 def divide(a,b)
   return a/b
 end
+
+#6th test
+def length_of_string(string)
+  return string.length()
+end
