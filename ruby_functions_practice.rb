@@ -83,5 +83,5 @@ end
 
 #Further 2 test:
 def volume_of_sphere(r)
-  return ((4*3.14159265359)/3)*r**3
+  return (((4*3.14159265359)/3)*r**3).round()
 end
