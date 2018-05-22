@@ -45,3 +45,9 @@ def number_to_full_month_name(a)
   months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "Decmeber"]
   return months[a-1]
 end
+
+#12th test
+def number_to_short_month_name(a)
+  months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "Decmeber"]
+  return months[a-1].slice(0,3)
+end
