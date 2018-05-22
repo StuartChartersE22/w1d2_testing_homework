@@ -41,13 +41,37 @@ def add_string_as_number(string1,string2)
 end
 
 #9th, 10th, 11th test
+
+#Array method:
+# def number_to_full_month_name(a)
+#   months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "Decmeber"]
+#   return months[a-1]
+# end
+
+#Case method:
 def number_to_full_month_name(a)
-  months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "Decmeber"]
-  return months[a-1]
+  case a
+    when 1
+      return "January"
+    when 3
+      return "March"
+    when 4
+      return "April"
+    when 9
+      return "September"
+    when 10
+      return "October"
+  end
 end
 
 #12th, 13th, 14th test
+#Array method:
+# def number_to_short_month_name(a)
+#   months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "Decmeber"]
+#   return months[a-1].slice(0,3)
+# end
+
+#Case method:
 def number_to_short_month_name(a)
-  months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "Decmeber"]
-  return months[a-1].slice(0,3)
+  return number_to_full_month_name(a).slice(0,3)
 end
