@@ -12,3 +12,8 @@ end
 def subtract(a,b)
   return a-b
 end
+
+#4th test
+def multiply(a,b)
+  return a*b
+end
