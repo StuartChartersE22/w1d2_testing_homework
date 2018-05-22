@@ -65,13 +65,7 @@ def number_to_full_month_name(a)
 end
 
 #12th, 13th, 14th test
-#Array method:
-# def number_to_short_month_name(a)
-#   months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "Decmeber"]
-#   return months[a-1].slice(0,3)
-# end
 
-#Case method:
 def number_to_short_month_name(a)
   return number_to_full_month_name(a).slice(0,3)
 end
