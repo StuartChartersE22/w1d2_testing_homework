@@ -76,6 +76,12 @@ def number_to_short_month_name(a)
   return number_to_full_month_name(a).slice(0,3)
 end
 
-def volume_of_cube (length)
+#Further 1 test:
+def volume_of_cube(length)
   return length**3
+end
+
+#Further 2 test:
+def volume_of_sphere(r)
+  return ((4*3.14159265359)/3)*r**3
 end
