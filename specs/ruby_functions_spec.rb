@@ -112,5 +112,4 @@ class Functions_Practice < MiniTest::Test
   #   assert_equal(-40,temp_in_c)
   # end
 
-
 end
