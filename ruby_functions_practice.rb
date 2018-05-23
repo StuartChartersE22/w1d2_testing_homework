@@ -35,8 +35,8 @@ end
 
 #8th test
 def add_string_as_number(string1,string2)
-  a = string1.to_i
-  b = string2.to_i
+  a = string1.to_i()
+  b = string2.to_i()
   return a+b
 end
 
